@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "./static/css/main.3467ce9d.css",
+    "main.js": "./static/js/main.c3a8385b.js",
+    "static/js/27.bf708f9c.chunk.js": "./static/js/27.bf708f9c.chunk.js",
+    "static/media/hotel.svg": "./static/media/hotel.bbb57b14d52b038decff3dc167de8ebe.svg",
+    "index.html": "./index.html"
+  },
+  "entrypoints": [
+    "static/css/main.3467ce9d.css",
+    "static/js/main.c3a8385b.js"
+  ]
+}

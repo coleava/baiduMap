@@ -1,7 +1,7 @@
 {
   "name": "baidu_map",
   "version": "0.1.0",
-  "homepage": "https://mwjuan.github.io/baidu_map",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
