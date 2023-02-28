@@ -11,7 +11,7 @@ const { Option } = Select
 
 function App() {
   const [one, setOne] = useState()
-  const [city, setCity] = useState('上海市')
+  const [city, setCity] = useState('台北市')
 
   const [map, setMap] = useState(null)
 
@@ -22,7 +22,7 @@ function App() {
 
   useEffect(() => {
     // cityChange()
-    initData('上海市')
+    initData('台北市')
   }, [])
 
   const initData = (val) => {
@@ -70,7 +70,7 @@ function App() {
         })
         localSearch.search(local.title)
       }
-      map.centerAndZoom(val, 11)
+      map.centerAndZoom(point, 10)
       map.addOverlay(marker)
     })
 
