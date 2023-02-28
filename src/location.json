@@ -9,7 +9,9 @@
         "city": "上海市",
         "province": "上海市",
         "phoneNumber": "(021)33236666",
-        "isAccurate": true
+        "isAccurate": true,
+        "rating": 4.7000000000000002,
+        "image": "http://store.is.autonavi.com/showpic/a7e31a26f2a953ffa12c4454b473126f"
       },
       {
         "title": "上海松江广富林希尔顿酒店",
@@ -18,7 +20,9 @@
         "city": "上海市",
         "province": "上海市",
         "phoneNumber": "(021)67898888",
-        "isAccurate": true
+        "isAccurate": true,
+        "rating": 4.7000000000000002,
+        "image": "http://store.is.autonavi.com/showpic/8761fb430907632c3e04c7664c7a80a9"
       },
       {
         "title": "上海奉贤前昇希尔顿酒店",
@@ -27,7 +31,9 @@
         "city": "上海市",
         "province": "上海市",
         "phoneNumber": "(021)60576888",
-        "isAccurate": true
+        "isAccurate": true,
+        "rating": 4.8000000000000002,
+        "image": "http://store.is.autonavi.com/showpic/8761fb430907632c3e04c7664c7a80a9"
       }
     ]
   },
@@ -41,7 +47,9 @@
         "city": "北京市",
         "province": "北京市",
         "phoneNumber": "(010)85075000",
-        "isAccurate": true
+        "isAccurate": true,
+        "rating": 4.7000000000000002,
+        "image": "http://store.is.autonavi.com/showpic/0e5989bb4d7a527abee712a450b52266"
       },
       {
         "title": "北京王府井希尔顿酒店(北京王府井店)",
@@ -51,7 +59,9 @@
         "province": "北京市",
         "phoneNumber": "(010)58128888",
         "isAccurate": true,
-        "tags": ["宾馆"]
+        "tags": ["宾馆"],
+        "rating": 4.4000000000000004,
+        "image": "http://store.is.autonavi.com/showpic/aeadb09fc08d8dc18ac82eb856132566"
       },
       {
         "title": "北京通州北投希尔顿酒店",
@@ -60,7 +70,9 @@
         "city": "北京市",
         "province": "北京市",
         "phoneNumber": "(010)50976666",
-        "isAccurate": true
+        "isAccurate": true,
+        "rating": 4.5999999999999996,
+        "image": "http://store.is.autonavi.com/showpic/792efa2d304666eeb123ac5a146b2988"
       },
       {
         "title": "北京首都机场希尔顿酒店",
@@ -69,7 +81,9 @@
         "city": "北京市",
         "province": "北京市",
         "phoneNumber": "(010)64588888",
-        "isAccurate": true
+        "isAccurate": true,
+        "rating": 4.7000000000000002,
+        "image": "http://store.is.autonavi.com/showpic/0e5989bb4d7a527abee712a450b52266"
       },
       {
         "title": "北京希尔顿酒店",
@@ -78,7 +92,9 @@
         "city": "北京市",
         "province": "北京市",
         "phoneNumber": "(010)58655000",
-        "isAccurate": false
+        "isAccurate": false,
+        "rating": 4.4000000000000004,
+        "image": "http://store.is.autonavi.com/showpic/aeadb09fc08d8dc18ac82eb856132566"
       }
     ]
   },
@@ -92,7 +108,9 @@
         "city": "重庆市",
         "province": "重庆市",
         "phoneNumber": "(023)89039999",
-        "isAccurate": true
+        "isAccurate": true,
+        "rating": 4.5999999999999996,
+        "image": "http://store.is.autonavi.com/showpic/404df77a3e3f383cbc737562b5e4a29a"
       },
       {
         "title": "重庆两江新区高科希尔顿酒店",
@@ -101,7 +119,9 @@
         "city": "重庆市",
         "province": "重庆市",
         "phoneNumber": "(023)65158888",
-        "isAccurate": true
+        "isAccurate": true,
+        "rating": 4.7999999999999998,
+        "image": "http://store.is.autonavi.com/showpic/263509c9a8013be1ac78a8efa0699eae"
       }
     ]
   },
@@ -115,7 +135,9 @@
         "city": "儋州市",
         "province": "海南省",
         "phoneNumber": "(0898)32658888",
-        "isAccurate": true
+        "isAccurate": true,
+        "rating": 4.7000000000000002,
+        "image": "http://store.is.autonavi.com/showpic/8c82ddf7034bc8863979929c30d2c70f"
       }
     ]
   },
@@ -129,7 +151,9 @@
         "city": "大连市",
         "province": "辽宁省",
         "phoneNumber": "(0411)86770000",
-        "isAccurate": true
+        "isAccurate": true,
+        "rating": 4.5,
+        "image": "http://store.is.autonavi.com/showpic/791812f863b7fd1e8ee39afa1c52f747"
       }
     ]
   },
@@ -144,7 +168,9 @@
         "province": "广东省",
         "phoneNumber": "(0757)83069999",
         "isAccurate": true,
-        "tags": ["宾馆", "星级宾馆<font color=\"#c60a00\">酒店</font>", "五星级"]
+        "tags": ["宾馆", "星级宾馆<font color=\"#c60a00\">酒店</font>", "五星级"],
+        "rating": 4.5999999999999996,
+        "image": "http://store.is.autonavi.com/showpic/348f3324eb019c14517e905b94d308a4"
       },
       {
         "title": "佛山顺德海骏达希尔顿酒店",
@@ -153,7 +179,9 @@
         "city": "佛山市",
         "province": "广东省",
         "phoneNumber": "(0757)26683333",
-        "isAccurate": true
+        "isAccurate": true,
+        "rating": 4.5999999999999996,
+        "image": "http://store.is.autonavi.com/showpic/5d22618324335e0801d6d7de8e3284d4"
       },
       {
         "title": "广州翡翠希尔顿酒店",
@@ -162,7 +190,9 @@
         "city": "广州市",
         "province": "广东省",
         "phoneNumber": "(020)88800999",
-        "isAccurate": true
+        "isAccurate": true,
+        "rating": 4.7999999999999998,
+        "image": "http://store.is.autonavi.com/showpic/d483183ce4b1f4ada489f6cad80f5cfe"
       },
       {
         "title": "广州天河希尔顿酒店",
@@ -171,7 +201,9 @@
         "city": "广州市",
         "province": "广东省",
         "phoneNumber": "(020)66839999",
-        "isAccurate": true
+        "isAccurate": true,
+        "rating": 4.7999999999999998,
+        "image": "http://store.is.autonavi.com/showpic/6ebc191502abd0aeb83c1c6b0d5910f2"
       },
       {
         "title": "广州万富希尔顿酒店(万达广场广州白云店)",
@@ -180,7 +212,9 @@
         "city": "广州市",
         "province": "广东省",
         "phoneNumber": "(020)66600666",
-        "isAccurate": true
+        "isAccurate": true,
+        "rating": 4.7000000000000002,
+        "image": "http://store.is.autonavi.com/showpic/5d32088903ba43fb39828f90767ee096"
       }
     ]
   },
@@ -194,7 +228,9 @@
         "city": "厦门市",
         "province": "福建省",
         "phoneNumber": "(0592)5399999",
-        "isAccurate": true
+        "isAccurate": true,
+        "rating": 4.5999999999999996,
+        "image": "http://store.is.autonavi.com/showpic/8320899e97f2ada66dc846dc4f1147dd"
       }
     ]
   },
@@ -208,7 +244,9 @@
         "city": "西安市",
         "province": "陕西省",
         "phoneNumber": "(029)68588888",
-        "isAccurate": true
+        "isAccurate": true,
+        "rating": 4.7000000000000002,
+        "image": "http://store.is.autonavi.com/showpic/4bbe482721b1d0e8914858a777eedd7a"
       },
       {
         "title": "西安富力希尔顿酒店(东新街店)",
@@ -218,7 +256,9 @@
         "city": "西安市",
         "province": "陕西省",
         "phoneNumber": "(029)87388888",
-        "isAccurate": true
+        "isAccurate": true,
+        "rating": 4.7999999999999998,
+        "image": "http://store.is.autonavi.com/showpic/eebe76649f2929bb4ba6e45609872f63"
       }
     ]
   },
@@ -232,7 +272,9 @@
         "city": "沈阳市",
         "province": "辽宁省",
         "phoneNumber": "(024)22718888",
-        "isAccurate": true
+        "isAccurate": true,
+        "rating": 4.7999999999999998,
+        "image": "http://store.is.autonavi.com/showpic/11d9d3ccfcfad700f78cd6c6faa27d9f"
       }
     ]
   },
@@ -246,7 +288,9 @@
         "city": "青岛市",
         "province": "山东省",
         "phoneNumber": "(0532)83150000",
-        "isAccurate": true
+        "isAccurate": true,
+        "rating": 4.7000000000000002,
+        "image": "http://store.is.autonavi.com/showpic/eb3f40d45bb6806fb8191f9653e4879f"
       }
     ]
   },
@@ -260,7 +304,9 @@
         "city": "石家庄市",
         "province": "河北省",
         "phoneNumber": "(0311)67966666",
-        "isAccurate": false
+        "isAccurate": false,
+        "rating": 4.5999999999999996,
+        "image": "http://store.is.autonavi.com/showpic/06754cef5f3fcbbf48c4293ffa98c7e0"
       }
     ]
   },
@@ -274,7 +320,9 @@
         "city": "嘉兴市",
         "province": "浙江省",
         "phoneNumber": "(0573)82288228",
-        "isAccurate": true
+        "isAccurate": true,
+        "rating": 4.7000000000000002,
+        "image": "http://store.is.autonavi.com/showpic/6a978fd9609ee2881cacad28f6de09fe"
       }
     ]
   },
@@ -289,7 +337,9 @@
         "province": "河南省",
         "phoneNumber": "(0371)89960888",
         "isAccurate": true,
-        "tags": ["宾馆"]
+        "tags": ["宾馆"],
+        "rating": 4.7000000000000002,
+        "image": "http://store.is.autonavi.com/showpic/05f8d48871028190448848f364ae5a54"
       }
     ]
   },
@@ -303,7 +353,9 @@
         "city": "深圳市",
         "province": "广东省",
         "phoneNumber": "(0755)21308888",
-        "isAccurate": true
+        "isAccurate": true,
+        "rating": 4.7000000000000002,
+        "image": "http://store.is.autonavi.com/showpic/7b9e7d4e382f72da0a14a09f8318a56c"
       },
       {
         "title": "深圳国际会展中心希尔顿酒店",
@@ -312,7 +364,9 @@
         "city": "深圳市",
         "province": "广东省",
         "phoneNumber": "(0755)29758888",
-        "isAccurate": true
+        "isAccurate": true,
+        "rating": 4.7000000000000002,
+        "image": "http://store.is.autonavi.com/showpic/7b9e7d4e382f72da0a14a09f8318a56c"
       }
     ]
   },
@@ -326,7 +380,9 @@
         "city": "武汉市",
         "province": "湖北省",
         "phoneNumber": "(027)59558888",
-        "isAccurate": true
+        "isAccurate": true,
+        "rating": 4.7000000000000002,
+        "image": "http://store.is.autonavi.com/showpic/7b9e7d4e382f72da0a14a09f8318a56c"
       },
       {
         "title": "武汉光谷希尔顿酒店",
@@ -336,7 +392,9 @@
         "province": "湖北省",
         "phoneNumber": "(027)59338888",
         "isAccurate": true,
-        "tags": ["宾馆"]
+        "tags": ["宾馆"],
+        "rating": 4.7000000000000002,
+        "image": "http://store.is.autonavi.com/showpic/5996980b4d4aab684cfced377dd66d5b"
       }
     ]
   },
@@ -351,7 +409,9 @@
         "province": "天津市",
         "phoneNumber": "(022)59998888",
         "isAccurate": true,
-        "tags": ["宾馆", "旅店"]
+        "tags": ["宾馆", "旅店"],
+        "rating": 4.5999999999999996,
+        "image": "http://store.is.autonavi.com/showpic/44b9e36e48ee300528bf9a1058dbb7c6"
       }
     ]
   },
@@ -365,7 +425,9 @@
         "city": "台州市",
         "province": "浙江省",
         "phoneNumber": "(0576)88068888",
-        "isAccurate": true
+        "isAccurate": true,
+        "rating": 4.7000000000000002,
+        "image": "http://store.is.autonavi.com/showpic/2853a751fccf7f121f24114612bea54f"
       }
     ]
   },
@@ -379,7 +441,9 @@
         "city": "儋州市",
         "province": "海南省",
         "phoneNumber": "(0898)32658888",
-        "isAccurate": true
+        "isAccurate": true,
+        "rating": 4.7000000000000002,
+        "image": "http://store.is.autonavi.com/showpic/8c82ddf7034bc8863979929c30d2c70f"
       },
       {
         "title": "希尔顿酒店(鲁能店)",
@@ -389,7 +453,9 @@
         "province": "海南省",
         "phoneNumber": "(0898)36398888",
         "isAccurate": true,
-        "tags": ["宾馆"]
+        "tags": ["宾馆"],
+        "rating": 4.7000000000000002,
+        "image": "http://store.is.autonavi.com/showpic/8c82ddf7034bc8863979929c30d2c70f"
       },
       {
         "title": "希尔顿酒店(海口店)",
@@ -399,7 +465,9 @@
         "province": "海南省",
         "phoneNumber": "(0898)36798888",
         "isAccurate": true,
-        "tags": ["宾馆"]
+        "tags": ["宾馆"],
+        "rating": 4.7000000000000002,
+        "image": "http://store.is.autonavi.com/showpic/8c82ddf7034bc8863979929c30d2c70f"
       }
     ]
   },
@@ -413,7 +481,9 @@
         "city": "林芝市",
         "province": "西藏自治区",
         "phoneNumber": "(0894)5888666",
-        "isAccurate": true
+        "isAccurate": true,
+        "rating": 4.7000000000000002,
+        "image": "http://store.is.autonavi.com/showpic/0e9583a0ddc132940623ee13701481d6"
       }
     ]
   },
@@ -428,7 +498,9 @@
         "province": "台湾省",
         "phoneNumber": "+886-2-29583000",
         "isAccurate": true,
-        "tags": ["宾馆"]
+        "tags": ["宾馆"],
+        "rating": 4.7000000000000002,
+        "image": "http://store.is.autonavi.com/showpic/0e9583a0ddc132940623ee13701481d6"
       }
     ]
   },
@@ -442,7 +514,9 @@
         "city": "绍兴市",
         "province": "浙江省",
         "phoneNumber": "18057538952",
-        "isAccurate": true
+        "isAccurate": true,
+        "rating": 4.7000000000000002,
+        "image": "http://store.is.autonavi.com/showpic/0e9583a0ddc132940623ee13701481d6"
       }
     ]
   },
@@ -457,7 +531,9 @@
         "province": "广东省",
         "phoneNumber": "(0760)88888888",
         "isAccurate": true,
-        "tags": ["餐饮"]
+        "tags": ["餐饮"],
+        "rating": 4.7000000000000002,
+        "image": "http://store.is.autonavi.com/showpic/0e9583a0ddc132940623ee13701481d6"
       }
     ]
   },
@@ -471,7 +547,9 @@
         "city": "合肥市",
         "province": "安徽省",
         "phoneNumber": "(0551)62808888",
-        "isAccurate": true
+        "isAccurate": true,
+        "rating": 4.7000000000000002,
+        "image": "http://store.is.autonavi.com/showpic/0e9583a0ddc132940623ee13701481d6"
       }
     ]
   },
@@ -486,7 +564,9 @@
         "province": "江苏省",
         "phoneNumber": "(025)83158888",
         "isAccurate": true,
-        "tags": ["宾馆", "星级宾馆<font color=\"#c60a00\">酒店</font>", "五星级", "<font color=\"#c60a00\">希尔顿</font>"]
+        "tags": ["宾馆", "星级宾馆<font color=\"#c60a00\">酒店</font>", "五星级", "<font color=\"#c60a00\">希尔顿</font>"],
+        "rating": 4.7000000000000002,
+        "image": "http://store.is.autonavi.com/showpic/8761fb430907632c3e04c7664c7a80a9"
       },
       {
         "title": "南京世茂滨江希尔顿酒店",
@@ -496,7 +576,9 @@
         "province": "江苏省",
         "phoneNumber": "(025)83158888",
         "isAccurate": false,
-        "tags": ["宾馆", "星级宾馆<font color=\"#c60a00\">酒店</font>", "五星级", "<font color=\"#c60a00\">希尔顿</font>"]
+        "tags": ["宾馆", "星级宾馆<font color=\"#c60a00\">酒店</font>", "五星级", "<font color=\"#c60a00\">希尔顿</font>"],
+        "rating": 4.7000000000000002,
+        "image": "http://store.is.autonavi.com/showpic/8761fb430907632c3e04c7664c7a80a9"
       },
       {
         "title": "南京朗昇希尔顿酒店(江东中路店)",
@@ -505,7 +587,9 @@
         "city": "南京市",
         "province": "江苏省",
         "phoneNumber": "(025)86658888",
-        "isAccurate": true
+        "isAccurate": true,
+        "rating": 4.7000000000000002,
+        "image": "http://store.is.autonavi.com/showpic/8761fb430907632c3e04c7664c7a80a9"
       }
     ]
   }
