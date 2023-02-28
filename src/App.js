@@ -4,36 +4,8 @@ import { useEffect, useState } from 'react'
 import { Select } from 'antd'
 import './App.css'
 
-import cityList from './city.json'
+// import cityList from './city.json'
 import locations from './location.json'
-
-// const cityList = [
-//   { city: '北京市', pois: ['北京王府井希尔顿酒店', '北京希尔顿酒店', '北京大兴希尔顿酒店', '北京通州北投希尔顿酒店', '北京首都机场希尔顿酒店'] },
-//   { city: '上海市', pois: ['上海虹桥祥源希尔顿酒店', '上海松江广富林希尔顿酒店', '上海奉贤前昇希尔顿酒店'] },
-//   { city: '重庆市', pois: ['重庆希尔顿酒店', '重庆两江新区高科希尔顿酒店'] },
-//   { city: '三亚市', pois: ['海南海花岛希尔顿酒店'] },
-//   { city: '大连市', pois: ['大连富力希尔顿酒店'] },
-//   { city: '广州市', pois: ['佛山希尔顿酒店', '佛山顺德海骏达希尔顿酒店', '广州万富希尔顿酒店', '广州天河希尔顿酒店', '广州翡翠希尔顿酒店'] },
-//   { city: '厦门市', pois: ['厦门磐基希尔顿酒店'] },
-//   { city: '西安市', pois: ['西安富力希尔顿酒店', '西安高新希尔顿酒店'] },
-//   { city: '沈阳市', pois: ['沈阳世茂希尔顿酒店'] },
-//   { city: '青岛市', pois: ['青岛金沙滩希尔顿酒店'] },
-//   { city: '石家庄市', pois: ['石家庄希尔顿酒店'] },
-//   { city: '嘉兴市', pois: ['嘉兴希尔顿酒店'] },
-//   { city: '郑州市', pois: ['郑州希尔顿酒店'] },
-//   { city: '深圳市', pois: ['深圳国际会展中心希尔顿酒店', '深圳大中华希尔顿酒店'] },
-//   { city: '武汉市', pois: ['武汉世茂希尔顿酒店', '武汉光谷希尔顿酒店'] },
-//   { city: '天津市', pois: ['天津生态城世茂希尔顿酒店'] },
-//   { city: '台州市', pois: ['台州希尔顿酒店'] },
-//   { city: '海口市', pois: ['海口鲁能希尔顿酒店', '海口希尔顿酒店', '海南海花岛希尔顿酒店'] },
-//   { city: '林芝市', pois: ['工布庄园希尔顿酒店'] },
-//   { city: '台北市', pois: ['台北新板希尔顿酒店'] },
-//   { city: '杭州市', pois: ['诸暨希尔顿酒店'] }, // 杭州或者绍兴都行
-//   { city: '中山市', pois: ['中山利和希尔顿酒店'] },
-//   { city: '合肥市', pois: ['合肥元一希尔顿酒店'] },
-//   { city: '南京市', pois: ['南京朗昇希尔顿酒店', '南京世茂滨江希尔顿酒店', '南京牛首山希尔顿酒店'] },
-//   //
-// ]
 
 const { Option } = Select
 
@@ -202,10 +174,10 @@ function App() {
         })}
       </div> */}
       <Select style={{ width: 200, position: 'absolute', top: 20, left: 20, zIndex: 999 }} value={city} onChange={cityChange} allowClear>
-        {cityList.map((item, index) => {
+        {locations.map((item, index) => {
           return (
-            <Option value={item.city} key={index}>
-              {item.city}
+            <Option value={item.location} key={index}>
+              {item.location}
             </Option>
           )
         })}
