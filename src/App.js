@@ -11,7 +11,7 @@ const { Option } = Select
 
 function App() {
   const [one, setOne] = useState()
-  const [city, setCity] = useState('台北市')
+  const [city, setCity] = useState('上海市')
 
   const [map, setMap] = useState(null)
 
@@ -22,7 +22,7 @@ function App() {
 
   useEffect(() => {
     // cityChange()
-    initData('台北市')
+    initData('上海市')
   }, [])
 
   const initData = (val) => {
@@ -36,7 +36,6 @@ function App() {
     // var point = new window.BMapGL.Point( 121.48053886017651,31.235929042252014) // 上海
 
     let location = locations.find((local) => local.location === val)
-    console.log('location', location)
     location.list.forEach((local) => {
       let point = new window.BMapGL.Point(local.point.lng, local.point.lat)
       let marker = new window.BMapGL.Marker(point)
@@ -44,11 +43,7 @@ function App() {
         var localSearch = new window.BMapGL.LocalSearch(val, {
           // renderOptions: { map },
           onSearchComplete: (results) => {
-            //   console.log('result', results)
             let find = results._pois.find((result) => result.title.endsWith('希尔顿酒店') || result.title.endsWith(')'))
-            console.log('find', find)
-
-            // find && sourcelist.push(find)
             var opts = {
               width: 300, // 信息窗口宽度
               height: 100, // 信息窗口高度
