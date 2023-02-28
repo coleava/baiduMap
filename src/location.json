@@ -1,0 +1,512 @@
+[
+  {
+    "location": "上海市",
+    "list": [
+      {
+        "title": "上海虹桥祥源希尔顿酒店",
+        "point": { "lng": 121.40123698873896, "lat": 31.194009860617783 },
+        "address": "上海市闵行区红松东路1116号虹桥祥源希尔顿酒店2号楼1楼(近虹许路)",
+        "city": "上海市",
+        "province": "上海市",
+        "phoneNumber": "(021)33236666",
+        "isAccurate": true
+      },
+      {
+        "title": "上海松江广富林希尔顿酒店",
+        "point": { "lng": 121.2051031196236, "lat": 31.07112907627361 },
+        "address": "上海市松江区广轩路1099号",
+        "city": "上海市",
+        "province": "上海市",
+        "phoneNumber": "(021)67898888",
+        "isAccurate": true
+      },
+      {
+        "title": "上海奉贤前昇希尔顿酒店",
+        "point": { "lng": 121.5812584010746, "lat": 30.902705027775827 },
+        "address": "上海市奉贤区平庄东路辅路",
+        "city": "上海市",
+        "province": "上海市",
+        "phoneNumber": "(021)60576888",
+        "isAccurate": true
+      }
+    ]
+  },
+  {
+    "location": "北京市",
+    "list": [
+      {
+        "title": "北京大兴希尔顿酒店",
+        "point": { "lng": 116.34583004480615, "lat": 39.77441007066679 },
+        "address": "北京市大兴区辅高路高米店南里18号楼",
+        "city": "北京市",
+        "province": "北京市",
+        "phoneNumber": "(010)85075000",
+        "isAccurate": true
+      },
+      {
+        "title": "北京王府井希尔顿酒店(北京王府井店)",
+        "point": { "lng": 116.41987090019396, "lat": 39.92067451325272 },
+        "address": "北京市东城区王府井东街8号北京王府井希尔顿酒店1层大堂",
+        "city": "北京市",
+        "province": "北京市",
+        "phoneNumber": "(010)58128888",
+        "isAccurate": true,
+        "tags": ["宾馆"]
+      },
+      {
+        "title": "北京通州北投希尔顿酒店",
+        "point": { "lng": 116.66617809644977, "lat": 39.9149823954121 },
+        "address": "北京市通州区新华东街289号2号楼",
+        "city": "北京市",
+        "province": "北京市",
+        "phoneNumber": "(010)50976666",
+        "isAccurate": true
+      },
+      {
+        "title": "北京首都机场希尔顿酒店",
+        "point": { "lng": 116.62597703843669, "lat": 40.05510909913396 },
+        "address": "北京市顺义区三经路1号",
+        "city": "北京市",
+        "province": "北京市",
+        "phoneNumber": "(010)64588888",
+        "isAccurate": true
+      },
+      {
+        "title": "北京希尔顿酒店",
+        "point": { "lng": 116.4687789640236, "lat": 39.9589275281502 },
+        "address": "北京市朝阳区东三环北路东方路1号",
+        "city": "北京市",
+        "province": "北京市",
+        "phoneNumber": "(010)58655000",
+        "isAccurate": false
+      }
+    ]
+  },
+  {
+    "location": "重庆市",
+    "list": [
+      {
+        "title": "重庆希尔顿酒店",
+        "point": { "lng": 106.55594647792869, "lat": 29.561518272599475 },
+        "address": "重庆市渝中区中山三路139号",
+        "city": "重庆市",
+        "province": "重庆市",
+        "phoneNumber": "(023)89039999",
+        "isAccurate": true
+      },
+      {
+        "title": "重庆两江新区高科希尔顿酒店",
+        "point": { "lng": 106.52363595586482, "lat": 29.61608300534168 },
+        "address": "重庆市渝北区财富东路8号1幢",
+        "city": "重庆市",
+        "province": "重庆市",
+        "phoneNumber": "(023)65158888",
+        "isAccurate": true
+      }
+    ]
+  },
+  {
+    "location": "三亚市",
+    "list": [
+      {
+        "title": "海南海花岛希尔顿酒店",
+        "point": { "lng": 109.18816101290494, "lat": 19.665658984361247 },
+        "address": "海南省儋州市海花岛1号岛",
+        "city": "儋州市",
+        "province": "海南省",
+        "phoneNumber": "(0898)32658888",
+        "isAccurate": true
+      }
+    ]
+  },
+  {
+    "location": "大连市",
+    "list": [
+      {
+        "title": "大连富力希尔顿酒店",
+        "point": { "lng": 121.67694096331715, "lat": 38.93468106719955 },
+        "address": "大连市中山区人民东路31号",
+        "city": "大连市",
+        "province": "辽宁省",
+        "phoneNumber": "(0411)86770000",
+        "isAccurate": true
+      }
+    ]
+  },
+  {
+    "location": "广州市",
+    "list": [
+      {
+        "title": "佛山希尔顿酒店(岭南大道店)",
+        "point": { "lng": 113.13049403711264, "lat": 22.992365988312013 },
+        "address": "广东省佛山市禅城区岭南大道北127号",
+        "city": "佛山市",
+        "province": "广东省",
+        "phoneNumber": "(0757)83069999",
+        "isAccurate": true,
+        "tags": ["宾馆", "星级宾馆<font color=\"#c60a00\">酒店</font>", "五星级"]
+      },
+      {
+        "title": "佛山顺德海骏达希尔顿酒店",
+        "point": { "lng": 113.28209396136802, "lat": 22.76484363979122 },
+        "address": "广东省佛山市顺德区桂洲大道67号",
+        "city": "佛山市",
+        "province": "广东省",
+        "phoneNumber": "(0757)26683333",
+        "isAccurate": true
+      },
+      {
+        "title": "广州翡翠希尔顿酒店",
+        "point": { "lng": 113.45748380026683, "lat": 23.17818732885313 },
+        "address": "广东省广州市黄埔区凝彩路28号",
+        "city": "广州市",
+        "province": "广东省",
+        "phoneNumber": "(020)88800999",
+        "isAccurate": true
+      },
+      {
+        "title": "广州天河希尔顿酒店",
+        "point": { "lng": 113.3272856454574, "lat": 23.15202251460273 },
+        "address": "广东省广州市天河区林和西横路215号",
+        "city": "广州市",
+        "province": "广东省",
+        "phoneNumber": "(020)66839999",
+        "isAccurate": true
+      },
+      {
+        "title": "广州万富希尔顿酒店(万达广场广州白云店)",
+        "point": { "lng": 113.27493222069208, "lat": 23.181855340406557 },
+        "address": "广东省广州市白云区三元里街道云城东路501号万达广场F1",
+        "city": "广州市",
+        "province": "广东省",
+        "phoneNumber": "(020)66600666",
+        "isAccurate": true
+      }
+    ]
+  },
+  {
+    "location": "厦门市",
+    "list": [
+      {
+        "title": "厦门磐基希尔顿酒店(厦门磐基店)",
+        "point": { "lng": 118.12730612792892, "lat": 24.487631110798844 },
+        "address": "福建省厦门市思明区莲岳路1号磐基名品中心F1",
+        "city": "厦门市",
+        "province": "福建省",
+        "phoneNumber": "(0592)5399999",
+        "isAccurate": true
+      }
+    ]
+  },
+  {
+    "location": "西安市",
+    "list": [
+      {
+        "title": "西安高新希尔顿酒店",
+        "point": { "lng": 108.89418264283266, "lat": 34.22664860532626 },
+        "address": "陕西省西安市雁塔区沣惠南路22号",
+        "city": "西安市",
+        "province": "陕西省",
+        "phoneNumber": "(029)68588888",
+        "isAccurate": true
+      },
+      {
+        "title": "西安富力希尔顿酒店(东新街店)",
+        "uid": "b388f9fdbde4c058b35c6a71",
+        "point": { "lng": 108.97256599688626, "lat": 34.27132104117235 },
+        "address": "陕西省西安市新城区东新街199号",
+        "city": "西安市",
+        "province": "陕西省",
+        "phoneNumber": "(029)87388888",
+        "isAccurate": true
+      }
+    ]
+  },
+  {
+    "location": "沈阳市",
+    "list": [
+      {
+        "title": "沈阳世茂希尔顿酒店(沈阳世茂店)",
+        "point": { "lng": 123.44143001552507, "lat": 41.764257945390426 },
+        "address": "辽宁省沈阳市和平区青年大街374号世茂铂晶宫1层",
+        "city": "沈阳市",
+        "province": "辽宁省",
+        "phoneNumber": "(024)22718888",
+        "isAccurate": true
+      }
+    ]
+  },
+  {
+    "location": "青岛市",
+    "list": [
+      {
+        "title": "青岛金沙滩希尔顿酒店",
+        "point": { "lng": 120.24342898303858, "lat": 35.963782887576706 },
+        "address": "山东省青岛市黄岛区嘉陵江东路1号",
+        "city": "青岛市",
+        "province": "山东省",
+        "phoneNumber": "(0532)83150000",
+        "isAccurate": true
+      }
+    ]
+  },
+  {
+    "location": "石家庄市",
+    "list": [
+      {
+        "title": "石家庄希尔顿酒店(石家庄店)",
+        "point": { "lng": 114.53140400963746, "lat": 38.045771074966545 },
+        "address": "河北省石家庄市长安区东大街5号",
+        "city": "石家庄市",
+        "province": "河北省",
+        "phoneNumber": "(0311)67966666",
+        "isAccurate": false
+      }
+    ]
+  },
+  {
+    "location": "嘉兴市",
+    "list": [
+      {
+        "title": "嘉兴希尔顿酒店",
+        "point": { "lng": 120.80113603009202, "lat": 30.74404489695102 },
+        "address": "浙江省嘉兴市南湖区云东路969号",
+        "city": "嘉兴市",
+        "province": "浙江省",
+        "phoneNumber": "(0573)82288228",
+        "isAccurate": true
+      }
+    ]
+  },
+  {
+    "location": "郑州市",
+    "list": [
+      {
+        "title": "郑州希尔顿酒店",
+        "point": { "lng": 113.71376813106654, "lat": 34.76933661168413 },
+        "address": "河南省郑州市金水区金水路288号",
+        "city": "郑州市",
+        "province": "河南省",
+        "phoneNumber": "(0371)89960888",
+        "isAccurate": true,
+        "tags": ["宾馆"]
+      }
+    ]
+  },
+  {
+    "location": "深圳市",
+    "list": [
+      {
+        "title": "深圳大中华希尔顿酒店(深南大道店)",
+        "point": { "lng": 114.07643273542801, "lat": 22.54497256667919 },
+        "address": "广东省深圳市福田区深南大道1003号",
+        "city": "深圳市",
+        "province": "广东省",
+        "phoneNumber": "(0755)21308888",
+        "isAccurate": true
+      },
+      {
+        "title": "深圳国际会展中心希尔顿酒店",
+        "point": { "lng": 113.7844319718759, "lat": 22.711773886915132 },
+        "address": "广东省深圳市宝安区展丰路80号",
+        "city": "深圳市",
+        "province": "广东省",
+        "phoneNumber": "(0755)29758888",
+        "isAccurate": true
+      }
+    ]
+  },
+  {
+    "location": "武汉市",
+    "list": [
+      {
+        "title": "武汉世茂希尔顿酒店(武汉世茂店)",
+        "point": { "lng": 114.28045967050858, "lat": 30.545014527281186 },
+        "address": "武汉市汉阳区阳新路与锦绣三路交叉路口往东北约50米(世茂52+)世茂锦绣长江52F1",
+        "city": "武汉市",
+        "province": "湖北省",
+        "phoneNumber": "(027)59558888",
+        "isAccurate": true
+      },
+      {
+        "title": "武汉光谷希尔顿酒店",
+        "point": { "lng": 114.4969210255176, "lat": 30.557341300999298 },
+        "address": "湖北省武汉市洪山区东湖新技术开发区春和路9号",
+        "city": "武汉市",
+        "province": "湖北省",
+        "phoneNumber": "(027)59338888",
+        "isAccurate": true,
+        "tags": ["宾馆"]
+      }
+    ]
+  },
+  {
+    "location": "天津市",
+    "list": [
+      {
+        "title": "天津生态城世茂希尔顿酒店",
+        "point": { "lng": 117.75069021152177, "lat": 39.13280837349336 },
+        "address": "天津市滨海新区中新生态城动漫中路82号",
+        "city": "天津市",
+        "province": "天津市",
+        "phoneNumber": "(022)59998888",
+        "isAccurate": true,
+        "tags": ["宾馆", "旅店"]
+      }
+    ]
+  },
+  {
+    "location": "台州市",
+    "list": [
+      {
+        "title": "台州希尔顿酒店",
+        "point": { "lng": 121.41522134257008, "lat": 28.663452641785693 },
+        "address": "浙江省台州市椒江区闻学路88号",
+        "city": "台州市",
+        "province": "浙江省",
+        "phoneNumber": "(0576)88068888",
+        "isAccurate": true
+      }
+    ]
+  },
+  {
+    "location": "海口市",
+    "list": [
+      {
+        "title": "海南海花岛希尔顿酒店",
+        "point": { "lng": 109.18816101290494, "lat": 19.665658984361247 },
+        "address": "海南省儋州市海花岛1号岛",
+        "city": "儋州市",
+        "province": "海南省",
+        "phoneNumber": "(0898)32658888",
+        "isAccurate": true
+      },
+      {
+        "title": "希尔顿酒店(鲁能店)",
+        "point": { "lng": 110.42112745547081, "lat": 20.067268388742534 },
+        "address": "海南省海口市美兰区琼山大道2号",
+        "city": "海口市",
+        "province": "海南省",
+        "phoneNumber": "(0898)36398888",
+        "isAccurate": true,
+        "tags": ["宾馆"]
+      },
+      {
+        "title": "希尔顿酒店(海口店)",
+        "point": { "lng": 110.31261852787044, "lat": 20.0298198804194 },
+        "address": "海南省海口市龙华区滨海大道海口滨海大道109-9号",
+        "city": "海口市",
+        "province": "海南省",
+        "phoneNumber": "(0898)36798888",
+        "isAccurate": true,
+        "tags": ["宾馆"]
+      }
+    ]
+  },
+  {
+    "location": "林芝市",
+    "list": [
+      {
+        "title": "林芝工布庄园希尔顿酒店",
+        "point": { "lng": 94.30155196923168, "lat": 29.258231016220765 },
+        "address": "西藏自治区林芝市米林县306省道林芝机场西南5公里",
+        "city": "林芝市",
+        "province": "西藏自治区",
+        "phoneNumber": "(0894)5888666",
+        "isAccurate": true
+      }
+    ]
+  },
+  {
+    "location": "台北市",
+    "list": [
+      {
+        "title": "希尔顿酒店(台北新板店)",
+        "point": { "lng": 121.47279661726317, "lat": 25.014771901562096 },
+        "address": "台湾省新北市板桥区民权路88号",
+        "city": "新北市",
+        "province": "台湾省",
+        "phoneNumber": "+886-2-29583000",
+        "isAccurate": true,
+        "tags": ["宾馆"]
+      }
+    ]
+  },
+  {
+    "location": "杭州市",
+    "list": [
+      {
+        "title": "诸暨希尔顿酒店",
+        "point": { "lng": 120.24172281457565, "lat": 29.71829947677976 },
+        "address": "浙江省绍兴市诸暨市西施大街55号",
+        "city": "绍兴市",
+        "province": "浙江省",
+        "phoneNumber": "18057538952",
+        "isAccurate": true
+      }
+    ]
+  },
+  {
+    "location": "中山市",
+    "list": [
+      {
+        "title": "中山利和希尔顿酒店(中山三路店)",
+        "point": { "lng": 113.3898561275982, "lat": 22.519071309502298 },
+        "address": "广东省中山市中山三路16号中山市利和广场F1",
+        "city": "中山市",
+        "province": "广东省",
+        "phoneNumber": "(0760)88888888",
+        "isAccurate": true,
+        "tags": ["餐饮"]
+      }
+    ]
+  },
+  {
+    "location": "合肥市",
+    "list": [
+      {
+        "title": "合肥元一希尔顿酒店",
+        "point": { "lng": 117.31724091481381, "lat": 31.882420036566614 },
+        "address": "合肥市瑶海区胜利路198号",
+        "city": "合肥市",
+        "province": "安徽省",
+        "phoneNumber": "(0551)62808888",
+        "isAccurate": true
+      }
+    ]
+  },
+  {
+    "location": "南京市",
+    "list": [
+      {
+        "title": "南京世茂滨江希尔顿酒店",
+        "point": { "lng": 118.73939265412156, "lat": 32.08279926014657 },
+        "address": "江苏省南京市鼓楼区淮滨路1号",
+        "city": "南京市",
+        "province": "江苏省",
+        "phoneNumber": "(025)83158888",
+        "isAccurate": true,
+        "tags": ["宾馆", "星级宾馆<font color=\"#c60a00\">酒店</font>", "五星级", "<font color=\"#c60a00\">希尔顿</font>"]
+      },
+      {
+        "title": "南京世茂滨江希尔顿酒店",
+        "point": { "lng": 118.73939265412156, "lat": 32.08279926014657 },
+        "address": "江苏省南京市鼓楼区淮滨路1号",
+        "city": "南京市",
+        "province": "江苏省",
+        "phoneNumber": "(025)83158888",
+        "isAccurate": false,
+        "tags": ["宾馆", "星级宾馆<font color=\"#c60a00\">酒店</font>", "五星级", "<font color=\"#c60a00\">希尔顿</font>"]
+      },
+      {
+        "title": "南京朗昇希尔顿酒店(江东中路店)",
+        "point": { "lng": 118.74461800744255, "lat": 32.03681199105876 },
+        "address": "江苏省南京市建邺区江东中路100号",
+        "city": "南京市",
+        "province": "江苏省",
+        "phoneNumber": "(025)86658888",
+        "isAccurate": true
+      }
+    ]
+  }
+]
