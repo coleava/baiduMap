@@ -64,11 +64,10 @@ function App() {
     // var point = new window.BMapGL.Point( 121.48053886017651,31.235929042252014) // 上海
 
     let location = locations.find((local) => local.location === val)
-    // console.log('location', map)
+    console.log('location', location)
     location.list.forEach((local) => {
       let point = new window.BMapGL.Point(local.point.lng, local.point.lat)
       let marker = new window.BMapGL.Marker(point)
-      console.log('local', local)
       marker.onclick = (e) => {
         var localSearch = new window.BMapGL.LocalSearch(val, {
           // renderOptions: { map },
