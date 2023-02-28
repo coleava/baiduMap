@@ -157,7 +157,7 @@ function App() {
 
   return (
     <div style={{ position: 'relative' }}>
-      <div style={{ position: 'absolute', top: 20, left: 20, zIndex: 999, width: '45%', height: '75vh' }}>
+      <div style={{ position: 'absolute', top: 20, left: 20, zIndex: 999, width: '20%', height: '75vh' }}>
         <Select style={{ width: '100%' }} value={city} onChange={cityChange} allowClear>
           {locations.map((item, index) => {
             return (
