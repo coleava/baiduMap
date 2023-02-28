@@ -34,7 +34,6 @@ function App() {
     // var point = new window.BMapGL.Point(116.4133836971231,39.910924547299565) // 北京
 
     // var point = new window.BMapGL.Point( 121.48053886017651,31.235929042252014) // 上海
-
     let location = locations.find((local) => local.location === val)
     location.list.forEach((local) => {
       let point = new window.BMapGL.Point(local.point.lng, local.point.lat)
@@ -65,7 +64,7 @@ function App() {
         })
         localSearch.search(local.title)
       }
-      map.centerAndZoom(point, 10)
+      map.centerAndZoom(point, 11)
       map.addOverlay(marker)
     })
 
