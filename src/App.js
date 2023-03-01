@@ -18,6 +18,7 @@ function App() {
   const [selectLocation, setSelectLocation] = useState(null)
   const [point, setPoint] = useState(null)
   const [selectMarker, setMarker] = useState(null)
+  const iconSize = new window.BMapGL.Size(32, 32)
   useEffect(() => {
     initData('上海市')
   }, [])
@@ -35,38 +36,32 @@ function App() {
     setTargetList(location.list)
     location.list.forEach((local) => {
       let point = new window.BMapGL.Point(local.point.lng, local.point.lat)
-      let myIcon = new window.BMapGL.Icon(require('./imgs/location-red.png'), new window.BMapGL.Size(32, 32))
-      let marker = new window.BMapGL.Marker(point, { icon: myIcon })
+      let myIcon = new window.BMapGL.Icon(require('./imgs/location-red.png'), iconSize)
+      let marker = new window.BMapGL.Marker(point, { icon: myIcon, title: local.title })
       //   marker.setImageUrl(require('./imgs/location-red.png'))
       marker.onclick = (e) => {
+        let { target } = e
+        let overlays = map.getOverlays()
+        let lay = null
         var localSearch = new window.BMapGL.LocalSearch(val, {
           // renderOptions: { map },
           onSearchComplete: (results) => {
+            let newPoint = new window.BMapGL.Point(e.target.latLng.lng, e.target.latLng.lat)
             let find = results._pois.find((result) => result.title.endsWith('希尔顿酒店') || result.title.endsWith(')'))
             find['image'] = local.image
             find['rating'] = local.rating
-            marker.setIcon(new window.BMapGL.Icon(require('./imgs/location-blue.png'), new window.BMapGL.Size(32, 32)))
-            setMarker(marker)
-            // marker.setImageUrl(require('./imgs/location-blue.png'))
-            // var opts = {
-            //   width: 300, // 信息窗口宽度
-            //   height: 100, // 信息窗口高度
-            //   title: find.title, // 信息窗口标题
-            // }
-            // let infoWindow = new window.BMapGL.InfoWindow(
-            //   ` <div style="padding: 10px 0">
-            //             <div style="margin-bottom: 4px">地址:  ${find.address}</div>
-            //             <div>电话:  ${find.phoneNumber}</div>
-            //           </div>`,
-            //   opts
-            // )
-            // infoWindow.onclickclose = () => {
-            //   map.centerAndZoom(val, 10)
-            // }
-            // map.openInfoWindow(infoWindow, point)
-            map.centerAndZoom(point, 14)
+            overlays.forEach((overlay) => {
+              if (overlay._config.title === target._config.title) {
+                overlay.setIcon(new window.BMapGL.Icon(require('./imgs/location-blue.png'), iconSize))
+                lay = overlay
+              } else {
+                overlay.setIcon(new window.BMapGL.Icon(require('./imgs/location-red.png'), iconSize))
+              }
+            })
+            setMarker(lay)
             selectTarget(find)
-            setPoint(point)
+            setPoint(newPoint)
+            map.centerAndZoom(newPoint, 14)
           },
         })
         localSearch.search(local.title)
@@ -134,32 +129,44 @@ function App() {
     initData(value || '上海市')
     setShowDetail(false)
     setSelectLocation(null)
+    selectMarker.setIcon(new window.BMapGL.Icon(require('./imgs/location-blue.png'), iconSize))
   }
 
   const selectTarget = (target) => {
-    setSelectLocation(target)
-    setShowDetail(true)
     if (map) {
-      let point = new window.BMapGL.Point(target.point.lng, target.point.lat)
-      map.centerAndZoom(point, 14)
-      let myIcon = new window.BMapGL.Icon(require('./imgs/location-blue.png'), new window.BMapGL.Size(32, 32))
-      let marker = new window.BMapGL.Marker(point, { icon: myIcon })
+      let newPoint = new window.BMapGL.Point(target.point.lng, target.point.lat)
+      let marker = null
+      let overlays = map.getOverlays()
+      overlays.forEach((overlay) => {
+        if (target.title === overlay._config.title) {
+          overlay.setIcon(new window.BMapGL.Icon(require('./imgs/location-blue.png'), iconSize))
+        } else {
+          overlay.setIcon(new window.BMapGL.Icon(require('./imgs/location-red.png'), iconSize))
+        }
+      })
+
+      map.centerAndZoom(newPoint, 14)
       map.addOverlay(marker)
       setMarker(marker)
-      setPoint(point)
+      setPoint(newPoint)
     }
+    setSelectLocation(target)
+    setShowDetail(true)
   }
 
   const back = () => {
-    
     setShowDetail(false)
     point && map.centerAndZoom(point, 11)
+    let overlays = map.getOverlays()
+    overlays.forEach((overlay) => {
+      overlay.setIcon(new window.BMapGL.Icon(require('./imgs/location-red.png'), iconSize))
+    })
     // let myIcon = new window.BMapGL.Icon(require('./imgs/location-red.png'), new window.BMapGL.Size(32, 32))
     // let marker = new window.BMapGL.Marker(point, { icon: myIcon })
-    selectMarker.setIcon(new window.BMapGL.Icon(require('./imgs/location-red.png'), new window.BMapGL.Size(32, 32)))
+    // selectMarker && selectMarker.setIcon(new window.BMapGL.Icon(require('./imgs/location-red.png'), iconSize))
   }
 
-//   console.log('map', map,selectMarker)
+  //   console.log('map', map,selectMarker)
   return (
     <div style={{ position: 'relative' }}>
       <div style={{ position: 'absolute', top: 20, left: 20, zIndex: 999, width: '20%', height: '75vh' }}>
