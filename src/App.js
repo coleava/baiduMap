@@ -71,8 +71,8 @@ function App() {
         })
         localSearch.search(local.title)
       }
-      map.centerAndZoom(point, 11)
       map.addOverlay(marker)
+      map.centerAndZoom(point, 11)
     })
     setMap(map)
     // 将地址解析结果显示在地图上,并调整地图视野
@@ -137,24 +137,29 @@ function App() {
   }
 
   const selectTarget = (target) => {
-    console.log(target)
     setSelectLocation(target)
     setShowDetail(true)
-    let point = new window.BMapGL.Point(target.point.lng, target.point.lat)
-    map.centerAndZoom(point, 14)
-    let myIcon = new window.BMapGL.Icon(require('./imgs/location-blue.png'), new window.BMapGL.Size(32, 32))
-    let marker = new window.BMapGL.Marker(point, { icon: myIcon })
-    map.addOverlay(marker)
-    setMarker(marker)
-    setPoint(point)
+    if (map) {
+      let point = new window.BMapGL.Point(target.point.lng, target.point.lat)
+      map.centerAndZoom(point, 14)
+      let myIcon = new window.BMapGL.Icon(require('./imgs/location-blue.png'), new window.BMapGL.Size(32, 32))
+      let marker = new window.BMapGL.Marker(point, { icon: myIcon })
+      map.addOverlay(marker)
+      setMarker(marker)
+      setPoint(point)
+    }
   }
 
   const back = () => {
+    
     setShowDetail(false)
     point && map.centerAndZoom(point, 11)
-    selectMarker && selectMarker.setIcon(new window.BMapGL.Icon(require('./imgs/location-red.png'), new window.BMapGL.Size(32, 32)))
+    // let myIcon = new window.BMapGL.Icon(require('./imgs/location-red.png'), new window.BMapGL.Size(32, 32))
+    // let marker = new window.BMapGL.Marker(point, { icon: myIcon })
+    selectMarker.setIcon(new window.BMapGL.Icon(require('./imgs/location-red.png'), new window.BMapGL.Size(32, 32)))
   }
 
+//   console.log('map', map,selectMarker)
   return (
     <div style={{ position: 'relative' }}>
       <div style={{ position: 'absolute', top: 20, left: 20, zIndex: 999, width: '20%', height: '75vh' }}>
