@@ -1,0 +1,583 @@
+[
+  {
+    "name": "麦当劳(青浦店)",
+    "location": {
+      "lat": 31.155324,
+      "lng": 121.123116
+    },
+    "address": "上海市青浦区青安路55~59号",
+    "province": "上海市",
+    "city": "上海市",
+    "area": "青浦区",
+    "street_id": "a12baa406e9a244fe956faeb",
+    "telephone": "(021)59726750",
+    "detail": 1,
+    "uid": "a12baa406e9a244fe956faeb",
+    "detail_info": {
+      "tag": "美食;小吃快餐店",
+      "navi_location": {
+        "lng": 121.12329917898,
+        "lat": 31.155333366329
+      },
+      "type": "cater",
+      "detail_url": "http://api.map.baidu.com/place/detail?uid=a12baa406e9a244fe956faeb&output=html&source=placeapi_v2",
+      "price": "31.0",
+      "overall_rating": "4.5",
+      "comment_num": "12",
+      "shop_hours": "06:30-23:00",
+      "children": []
+    }
+  },
+  {
+    "name": "麦当劳(金汇店)",
+    "location": {
+      "lat": 30.964611,
+      "lng": 121.518599
+    },
+    "address": "上海市奉贤区贤浦路2554号一层1-02室商铺",
+    "province": "上海市",
+    "city": "上海市",
+    "area": "奉贤区",
+    "street_id": "e7d64178897612f0fd0eb031",
+    "telephone": "(021)37597365",
+    "detail": 1,
+    "uid": "e7d64178897612f0fd0eb031",
+    "detail_info": {
+      "tag": "美食;小吃快餐店",
+      "navi_location": {
+        "lng": 121.51862085592,
+        "lat": 30.964573165189
+      },
+      "type": "cater",
+      "detail_url": "http://api.map.baidu.com/place/detail?uid=e7d64178897612f0fd0eb031&output=html&source=placeapi_v2",
+      "price": "26.0",
+      "overall_rating": "3.7",
+      "comment_num": "2",
+      "shop_hours": "06:30-23:00",
+      "children": []
+    }
+  },
+  {
+    "name": "麦当劳(川沙店)",
+    "location": {
+      "lat": 31.199601,
+      "lng": 121.705083
+    },
+    "address": "上海市浦东新区新川路400号",
+    "province": "上海市",
+    "city": "上海市",
+    "area": "浦东新区",
+    "street_id": "e600afdc1987cfd8adcb6641",
+    "telephone": "(021)58984061",
+    "detail": 1,
+    "uid": "e600afdc1987cfd8adcb6641",
+    "detail_info": {
+      "tag": "美食;小吃快餐店",
+      "navi_location": {
+        "lng": 121.7051035597,
+        "lat": 31.199512558804
+      },
+      "type": "cater",
+      "detail_url": "http://api.map.baidu.com/place/detail?uid=e600afdc1987cfd8adcb6641&output=html&source=placeapi_v2",
+      "price": "30.0",
+      "overall_rating": "4.1",
+      "comment_num": "7",
+      "shop_hours": "06:30-24:00",
+      "children": []
+    }
+  },
+  {
+    "name": "麦当劳(奉贤店)",
+    "location": {
+      "lat": 30.920749,
+      "lng": 121.465287
+    },
+    "address": "上海市奉贤区人民中路196号",
+    "province": "上海市",
+    "city": "上海市",
+    "area": "奉贤区",
+    "street_id": "c8b5cdefe0daa71a120daaf7",
+    "telephone": "(021)57425042",
+    "detail": 1,
+    "uid": "c8b5cdefe0daa71a120daaf7",
+    "detail_info": {
+      "tag": "美食;小吃快餐店",
+      "navi_location": {
+        "lng": 121.46518891655,
+        "lat": 30.920725255317
+      },
+      "type": "cater",
+      "detail_url": "http://api.map.baidu.com/place/detail?uid=c8b5cdefe0daa71a120daaf7&output=html&source=placeapi_v2",
+      "price": "21.0",
+      "overall_rating": "4.4",
+      "comment_num": "16",
+      "shop_hours": "00:00-24:00",
+      "children": []
+    }
+  },
+  {
+    "name": "麦当劳(长泰广场店)",
+    "location": {
+      "lat": 31.211383,
+      "lng": 121.607651
+    },
+    "address": "上海市浦东新区金科路2889弄长泰广场F1",
+    "province": "上海市",
+    "city": "上海市",
+    "area": "浦东新区",
+    "street_id": "4be6e4608d30649edc1e5294",
+    "telephone": "(021)58337051",
+    "detail": 1,
+    "uid": "4be6e4608d30649edc1e5294",
+    "detail_info": {
+      "tag": "美食;小吃快餐店",
+      "navi_location": {
+        "lng": 121.60670999228,
+        "lat": 31.211334289317
+      },
+      "indoor_floor": "F1",
+      "type": "cater",
+      "detail_url": "http://api.map.baidu.com/place/detail?uid=4be6e4608d30649edc1e5294&output=html&source=placeapi_v2",
+      "price": "21.0",
+      "overall_rating": "4.2",
+      "comment_num": "7",
+      "shop_hours": "07:00-22:00",
+      "children": []
+    }
+  },
+  {
+    "name": "麦当劳(沪宜餐厅)",
+    "location": {
+      "lat": 31.375526,
+      "lng": 121.263674
+    },
+    "address": "上海市嘉定区沪宜公路3145号",
+    "province": "上海市",
+    "city": "上海市",
+    "area": "嘉定区",
+    "street_id": "1cea15a944c4ffdc07fef524",
+    "telephone": "(021)59162080",
+    "detail": 1,
+    "uid": "1cea15a944c4ffdc07fef524",
+    "detail_info": {
+      "tag": "美食;小吃快餐店",
+      "navi_location": {
+        "lng": 121.26370588336,
+        "lat": 31.375443843656
+      },
+      "type": "cater",
+      "detail_url": "http://api.map.baidu.com/place/detail?uid=1cea15a944c4ffdc07fef524&output=html&source=placeapi_v2",
+      "price": "21.0",
+      "overall_rating": "4.6",
+      "comment_num": "8",
+      "shop_hours": "00:00-24:00",
+      "children": []
+    }
+  },
+  {
+    "name": "麦当劳(殷高西路店)",
+    "location": {
+      "lat": 31.326262,
+      "lng": 121.480221
+    },
+    "address": "上海市宝山区殷高西路538号",
+    "province": "上海市",
+    "city": "上海市",
+    "area": "宝山区",
+    "street_id": "eef2d5289bab28be3ae4a6aa",
+    "telephone": "(021)36322501",
+    "detail": 1,
+    "uid": "eef2d5289bab28be3ae4a6aa",
+    "detail_info": {
+      "tag": "美食;小吃快餐店",
+      "navi_location": {
+        "lng": 121.48014034131,
+        "lat": 31.326551344582
+      },
+      "type": "cater",
+      "detail_url": "http://api.map.baidu.com/place/detail?uid=eef2d5289bab28be3ae4a6aa&output=html&source=placeapi_v2",
+      "price": "25.0",
+      "overall_rating": "4.1",
+      "comment_num": "16",
+      "shop_hours": "07:00-23:00",
+      "children": []
+    }
+  },
+  {
+    "name": "麦当劳(静安寺店)",
+    "location": {
+      "lat": 31.230211,
+      "lng": 121.450422
+    },
+    "address": "上海市静安区万航渡路18号",
+    "province": "上海市",
+    "city": "上海市",
+    "area": "静安区",
+    "street_id": "dbf4d6eed33ab5336ea3cc9e",
+    "telephone": "(021)62563970",
+    "detail": 1,
+    "uid": "dbf4d6eed33ab5336ea3cc9e",
+    "detail_info": {
+      "tag": "美食;小吃快餐店",
+      "navi_location": {
+        "lng": 121.45052793201,
+        "lat": 31.230333338634
+      },
+      "type": "cater",
+      "detail_url": "http://api.map.baidu.com/place/detail?uid=dbf4d6eed33ab5336ea3cc9e&output=html&source=placeapi_v2",
+      "price": "25.0",
+      "overall_rating": "4.1",
+      "comment_num": "105",
+      "shop_hours": "07:00-23:00",
+      "children": []
+    }
+  },
+  {
+    "name": "麦当劳(铜川路乐购店)",
+    "location": {
+      "lat": 31.258509,
+      "lng": 121.395323
+    },
+    "address": "上海市普陀区铜川路1688弄",
+    "province": "上海市",
+    "city": "上海市",
+    "area": "普陀区",
+    "street_id": "49a02a7a3a385e592b201a24",
+    "telephone": "(021)52766886",
+    "detail": 1,
+    "uid": "49a02a7a3a385e592b201a24",
+    "detail_info": {
+      "tag": "美食;小吃快餐店",
+      "navi_location": {
+        "lng": 121.39512371395,
+        "lat": 31.258574653741
+      },
+      "type": "cater",
+      "detail_url": "http://api.map.baidu.com/place/detail?uid=49a02a7a3a385e592b201a24&output=html&source=placeapi_v2",
+      "price": "27.0",
+      "overall_rating": "4.0",
+      "comment_num": "4",
+      "shop_hours": "00:00-24:00",
+      "children": []
+    }
+  },
+  {
+    "name": "麦当劳(四川北路店)",
+    "location": {
+      "lat": 31.26084,
+      "lng": 121.490136
+    },
+    "address": "上海市虹口区四川北路1500号",
+    "province": "上海市",
+    "city": "上海市",
+    "area": "虹口区",
+    "street_id": "f4a33da9b527ff103010af24",
+    "telephone": "(021)63571035",
+    "detail": 1,
+    "uid": "f4a33da9b527ff103010af24",
+    "detail_info": {
+      "tag": "美食;小吃快餐店",
+      "navi_location": {
+        "lng": 121.49004477669,
+        "lat": 31.260818759915
+      },
+      "type": "cater",
+      "detail_url": "http://api.map.baidu.com/place/detail?uid=f4a33da9b527ff103010af24&output=html&source=placeapi_v2",
+      "price": "21.0",
+      "overall_rating": "3.8",
+      "comment_num": "200",
+      "shop_hours": "07:00-23:00",
+      "children": []
+    }
+  },
+  {
+    "name": "麦当劳(鞍山餐厅)",
+    "location": {
+      "lat": 31.279877,
+      "lng": 121.522385
+    },
+    "address": "上海市杨浦区控江路1667号海烟商厦2层",
+    "province": "上海市",
+    "city": "上海市",
+    "area": "杨浦区",
+    "street_id": "aa40108b7567590cc5effb6f",
+    "telephone": "(021)55043719",
+    "detail": 1,
+    "uid": "aa40108b7567590cc5effb6f",
+    "detail_info": {
+      "tag": "美食;小吃快餐店",
+      "navi_location": {
+        "lng": 121.52231631612,
+        "lat": 31.280067269958
+      },
+      "type": "cater",
+      "detail_url": "http://api.map.baidu.com/place/detail?uid=aa40108b7567590cc5effb6f&output=html&source=placeapi_v2",
+      "price": "28.0",
+      "overall_rating": "3.9",
+      "comment_num": "118",
+      "shop_hours": "00:00-24:00",
+      "children": []
+    }
+  },
+  {
+    "name": "麦当劳(绿地东海岸餐厅)",
+    "location": {
+      "lat": 31.189948,
+      "lng": 121.70596
+    },
+    "address": "川沙路5558弄6号绿地东海岸国际广场F2",
+    "province": "上海市",
+    "city": "上海市",
+    "area": "浦东新区",
+    "street_id": "8ab0dfc4cc49230fd8ecedf9",
+    "telephone": "(021)50491729",
+    "detail": 1,
+    "uid": "8ab0dfc4cc49230fd8ecedf9",
+    "detail_info": {
+      "tag": "美食;小吃快餐店",
+      "navi_location": {
+        "lng": 121.70615065604,
+        "lat": 31.188858516249
+      },
+      "indoor_floor": "F2",
+      "type": "cater",
+      "detail_url": "http://api.map.baidu.com/place/detail?uid=8ab0dfc4cc49230fd8ecedf9&output=html&source=placeapi_v2",
+      "price": "29.0",
+      "overall_rating": "4.2",
+      "comment_num": "157",
+      "shop_hours": "07:30-23:00",
+      "children": []
+    }
+  },
+  {
+    "name": "麦当劳(港城路店)",
+    "location": {
+      "lat": 31.358866,
+      "lng": 121.581401
+    },
+    "address": "上海市浦东新区港城路803号",
+    "province": "上海市",
+    "city": "上海市",
+    "area": "浦东新区",
+    "street_id": "e341b3c799ab4f5bdf1e529b",
+    "telephone": "(021)50200087,4009200205",
+    "detail": 1,
+    "uid": "e341b3c799ab4f5bdf1e529b",
+    "detail_info": {
+      "tag": "美食;小吃快餐店",
+      "navi_location": {
+        "lng": 121.58116471679,
+        "lat": 31.358634586847
+      },
+      "type": "cater",
+      "detail_url": "http://api.map.baidu.com/place/detail?uid=e341b3c799ab4f5bdf1e529b&output=html&source=placeapi_v2",
+      "price": "24.0",
+      "overall_rating": "4.0",
+      "shop_hours": "07:00-22:00",
+      "children": []
+    }
+  },
+  {
+    "name": "麦当劳(丝绸商厦餐厅)",
+    "location": {
+      "lat": 31.241723,
+      "lng": 121.485802
+    },
+    "address": "上海市黄浦区南京东路588号2层丝绸商厦B1",
+    "province": "上海市",
+    "city": "上海市",
+    "area": "黄浦区",
+    "street_id": "cb4fd14643afc1589c9d6890",
+    "telephone": "(021)63521746",
+    "detail": 1,
+    "uid": "cb4fd14643afc1589c9d6890",
+    "detail_info": {
+      "tag": "美食;小吃快餐店",
+      "navi_location": {
+        "lng": 121.4855249085,
+        "lat": 31.241503792538
+      },
+      "type": "cater",
+      "detail_url": "http://api.map.baidu.com/place/detail?uid=cb4fd14643afc1589c9d6890&output=html&source=placeapi_v2",
+      "price": "24.0",
+      "overall_rating": "3.8",
+      "comment_num": "94",
+      "shop_hours": "07:00-22:00",
+      "children": []
+    }
+  },
+  {
+    "name": "麦当劳(三号湾餐厅)",
+    "location": {
+      "lat": 31.301952,
+      "lng": 121.516015
+    },
+    "address": "上海市杨浦区国定路319号三号湾2层",
+    "province": "上海市",
+    "city": "上海市",
+    "area": "杨浦区",
+    "street_id": "a7d21669d3e2547abbbd63e6",
+    "telephone": "(021)55803782",
+    "detail": 1,
+    "uid": "a7d21669d3e2547abbbd63e6",
+    "detail_info": {
+      "tag": "美食;小吃快餐店",
+      "navi_location": {
+        "lng": 121.5161581819,
+        "lat": 31.30202606896
+      },
+      "type": "cater",
+      "detail_url": "http://api.map.baidu.com/place/detail?uid=a7d21669d3e2547abbbd63e6&output=html&source=placeapi_v2",
+      "price": "34.0",
+      "overall_rating": "4.2",
+      "comment_num": "0",
+      "shop_hours": "07:00-22:00",
+      "children": []
+    }
+  },
+  {
+    "name": "麦当劳(杨高南路店)",
+    "location": {
+      "lat": 31.212448,
+      "lng": 121.5368
+    },
+    "address": "上海市浦东新区杨高南路1126号",
+    "province": "上海市",
+    "city": "上海市",
+    "area": "浦东新区",
+    "street_id": "d219bb1dc20db792f50e77d2",
+    "telephone": "(021)50902775",
+    "detail": 1,
+    "uid": "d219bb1dc20db792f50e77d2",
+    "detail_info": {
+      "tag": "美食;小吃快餐店",
+      "navi_location": {
+        "lng": 121.53682981815,
+        "lat": 31.212447095573
+      },
+      "type": "cater",
+      "detail_url": "http://api.map.baidu.com/place/detail?uid=d219bb1dc20db792f50e77d2&output=html&source=placeapi_v2",
+      "price": "44.0",
+      "overall_rating": "3.8",
+      "comment_num": "2",
+      "shop_hours": "07:00-23:00",
+      "children": []
+    }
+  },
+  {
+    "name": "麦当劳(宝铭路餐厅)",
+    "location": {
+      "lat": 31.145494,
+      "lng": 121.374892
+    },
+    "address": "上海市闵行区宝铭路8号",
+    "province": "上海市",
+    "city": "上海市",
+    "area": "闵行区",
+    "street_id": "d70d5364c67e06cdbda240ee",
+    "telephone": "(021)64202826",
+    "detail": 1,
+    "uid": "d70d5364c67e06cdbda240ee",
+    "detail_info": {
+      "tag": "美食;小吃快餐店",
+      "navi_location": {
+        "lng": 121.37502427765,
+        "lat": 31.145270473061
+      },
+      "type": "cater",
+      "detail_url": "http://api.map.baidu.com/place/detail?uid=d70d5364c67e06cdbda240ee&output=html&source=placeapi_v2",
+      "price": "30.0",
+      "overall_rating": "4.1",
+      "shop_hours": "07:00-23:00",
+      "children": []
+    }
+  },
+  {
+    "name": "麦当劳(明珠环餐厅)",
+    "location": {
+      "lat": 31.244313,
+      "lng": 121.5084
+    },
+    "address": "上海市浦东新区世纪大道55号东方浮庭2F-1室(近陆家嘴环路)",
+    "province": "上海市",
+    "city": "上海市",
+    "area": "浦东新区",
+    "street_id": "cd9d05dd7d0770af84420ea0",
+    "telephone": "(021)38723295",
+    "detail": 1,
+    "uid": "cd9d05dd7d0770af84420ea0",
+    "detail_info": {
+      "tag": "美食;小吃快餐店",
+      "navi_location": {
+        "lng": 121.5103247566,
+        "lat": 31.243360810247
+      },
+      "type": "cater",
+      "detail_url": "http://api.map.baidu.com/place/detail?uid=cd9d05dd7d0770af84420ea0&output=html&source=placeapi_v2",
+      "price": "51.0",
+      "overall_rating": "3.8",
+      "comment_num": "12",
+      "shop_hours": "07:00-22:00",
+      "children": []
+    }
+  },
+  {
+    "name": "麦当劳(光新路乐购店)",
+    "location": {
+      "lat": 31.257421,
+      "lng": 121.438462
+    },
+    "address": "上海市普陀区中山北路1855号光新乐购1层",
+    "province": "上海市",
+    "city": "上海市",
+    "area": "普陀区",
+    "street_id": "6913052361a98e09725e80f8",
+    "telephone": "(021)52903454",
+    "detail": 1,
+    "uid": "6913052361a98e09725e80f8",
+    "detail_info": {
+      "tag": "美食;小吃快餐店",
+      "navi_location": {
+        "lng": 121.43842701741,
+        "lat": 31.257466934242
+      },
+      "indoor_floor": "F1",
+      "type": "cater",
+      "detail_url": "http://api.map.baidu.com/place/detail?uid=6913052361a98e09725e80f8&output=html&source=placeapi_v2",
+      "price": "26.0",
+      "overall_rating": "3.8",
+      "comment_num": "13",
+      "shop_hours": "07:00-23:00",
+      "children": []
+    }
+  },
+  {
+    "name": "麦当劳(美健路店)",
+    "location": {
+      "lat": 31.396586,
+      "lng": 121.341866
+    },
+    "address": "上海市宝山区美健路979号",
+    "province": "上海市",
+    "city": "上海市",
+    "area": "宝山区",
+    "street_id": "b57056b617173e148936ee24",
+    "telephone": "(021)61175835,4008517517",
+    "detail": 1,
+    "uid": "b57056b617173e148936ee24",
+    "detail_info": {
+      "tag": "美食;小吃快餐店",
+      "navi_location": {
+        "lng": 121.34179978631,
+        "lat": 31.396551607193
+      },
+      "type": "cater",
+      "detail_url": "http://api.map.baidu.com/place/detail?uid=b57056b617173e148936ee24&output=html&source=placeapi_v2",
+      "price": "39.0",
+      "overall_rating": "4.0",
+      "comment_num": "2",
+      "shop_hours": "07:00-23:00",
+      "children": []
+    }
+  }
+]
