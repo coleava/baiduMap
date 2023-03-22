@@ -1,13 +1,12 @@
+import './App.css'
 import React, { useEffect, useState } from 'react'
 import { Select, Divider, Rate } from 'antd'
-import './App.css'
 import GeryPng from './imgs/location-grey.png'
 import TelPng from './imgs/tel.png'
 import BackSvg from './imgs/back.svg'
 import locations from './location.json'
 import pois from './pois.json'
 import TransportLayer from './utils/request'
-import useCallbackState from './utils/useCallbackState'
 
 const { Option } = Select
 
