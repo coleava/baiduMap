@@ -54,6 +54,7 @@ function App() {
   }, [])
 
   useEffect(() => {
+    getCenterLngLat(city)
     if (store === '希尔顿酒店') {
       let location = locations.find((local) => local.location === city)
       setTargetList(location.list)
@@ -97,17 +98,17 @@ function App() {
             // map.removeOverlay(ms)
             ms.hide()
           })
-          getCenterLngLat(city, (point) => {
-            createLabel(markers.length, point)
-          })
+          setTimeout(() => {
+              createLabel(markers.length, centerPoint)
+          },100)
         } else {
           markers.forEach((ms) => {
             // map.addOverlay(ms)
             ms.show()
           })
           setTimeout(() => {
-              removeLabel()
-          },100)
+            removeLabel()
+          }, 100)
         }
       })
   }, [markers, countMarker])
@@ -119,40 +120,41 @@ function App() {
     map.enableInertialDragging(true)
 
     let ms = []
-    targetList && targetList.forEach((local) => {
-      let point = new window.BMapGL.Point(local.point.lng, local.point.lat)
-      let myIcon = new window.BMapGL.Icon(require('./imgs/location-red.png'), iconSize)
-      let marker = new window.BMapGL.Marker(point, { icon: myIcon, title: local.title })
-      marker.onclick = (e) => {
-        let { target } = e
-        let overlays = map.getOverlays()
-        var localSearch = new window.BMapGL.LocalSearch(val, {
-          // renderOptions: { map },
-          onSearchComplete: (results) => {
-            let newPoint = new window.BMapGL.Point(e.target.latLng.lng, e.target.latLng.lat)
-            let find = results._pois.find((result) => result.title.includes(store))
-            find['image'] = local.image
-            find['rating'] = local.rating
+    targetList &&
+      targetList.forEach((local) => {
+        let point = new window.BMapGL.Point(local.point.lng, local.point.lat)
+        let myIcon = new window.BMapGL.Icon(require('./imgs/location-red.png'), iconSize)
+        let marker = new window.BMapGL.Marker(point, { icon: myIcon, title: local.title })
+        marker.onclick = (e) => {
+          let { target } = e
+          let overlays = map.getOverlays()
+          var localSearch = new window.BMapGL.LocalSearch(val, {
+            // renderOptions: { map },
+            onSearchComplete: (results) => {
+              let newPoint = new window.BMapGL.Point(e.target.latLng.lng, e.target.latLng.lat)
+              let find = results._pois.find((result) => result.title.includes(store))
+              find['image'] = local.image
+              find['rating'] = local.rating
 
-            overlays.forEach((overlay) => {
-              if (overlay._config.title === target._config.title) {
-                overlay.setIcon(new window.BMapGL.Icon(require('./imgs/location-blue.png'), iconSize))
-              } else {
-                overlay.setIcon(new window.BMapGL.Icon(require('./imgs/location-red.png'), iconSize))
-              }
-            })
-            // setMarker(lay)
-            selectTarget(find)
-            setPoint(newPoint)
-            map.centerAndZoom(newPoint, 14)
-          },
-        })
-        localSearch.search(local.title)
-      }
-      ms.push(marker)
-      map.addOverlay(marker)
-      map.centerAndZoom(point, 11)
-    })
+              overlays.forEach((overlay) => {
+                if (overlay._config.title === target._config.title) {
+                  overlay.setIcon(new window.BMapGL.Icon(require('./imgs/location-blue.png'), iconSize))
+                } else {
+                  overlay.setIcon(new window.BMapGL.Icon(require('./imgs/location-red.png'), iconSize))
+                }
+              })
+              // setMarker(lay)
+              selectTarget(find)
+              setPoint(newPoint)
+              map.centerAndZoom(newPoint, 14)
+            },
+          })
+          localSearch.search(local.title)
+        }
+        ms.push(marker)
+        map.addOverlay(marker)
+        map.centerAndZoom(point, 11)
+      })
     setMarkers(ms)
     setMap(map)
   }
@@ -178,7 +180,7 @@ function App() {
 
   const removeLabel = () => {
     // map.removeOverlay(countMarker)
-    countMarker &&  countMarker.hide()
+    countMarker && countMarker.hide()
   }
 
   const cityChange = (value) => {
@@ -199,11 +201,10 @@ function App() {
   }
 
   // 获取城市中心坐标点
-  const getCenterLngLat = async (value, callback) => {
+  const getCenterLngLat = async (value) => {
     value = value || city
     let res = await transportLayer.getCenter('baidu', value)
     setCenterPoint(res)
-    callback(res)
   }
 
   const fetchData = async ({ type, page, query, region }, callback) => {
