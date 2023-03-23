@@ -4,7 +4,7 @@ class TransportLayer {
   constructor() {
     this.client = axios.create()
     this.client.interceptors.request.use((cfg) => {
-      cfg.baseURL = 'http://172.16.40.48:19009/map'
+      cfg.baseURL = 'https://test.space365.live/map'
 
       return cfg
     })
