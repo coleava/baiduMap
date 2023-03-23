@@ -1,11 +1,12 @@
 import './App.css'
 import React, { useEffect, useState } from 'react'
-import { Select, Divider, Rate } from 'antd'
+import { Select, Divider, Rate, Cascader } from 'antd'
 import GeryPng from './imgs/location-grey.png'
 import TelPng from './imgs/tel.png'
 import BackSvg from './imgs/back.svg'
 import locations from './location.json'
 import pois from './pois.json'
+import allCities from './utils/allCities.json'
 import TransportLayer from './utils/request'
 
 const { Option } = Select
@@ -31,6 +32,26 @@ function App() {
   const [centerPoint, setCenterPoint] = useState({ lat: 31.23593, lng: 121.48054 })
 
   const [store, setStore] = useState('希尔顿酒店')
+
+  const [options, setOptions] = useState([])
+
+  useEffect(() => {
+    let data = []
+    allCities.forEach((c) => {
+      data.push({
+        value: c.provinceName,
+        label: c.provinceName,
+        children: c.citys.map((x) => {
+          return {
+            value: x.cityName,
+            label: x.cityName,
+          }
+        }),
+      })
+    })
+
+    setOptions(data)
+  }, [])
 
   useEffect(() => {
     if (store === '希尔顿酒店') {
@@ -71,7 +92,7 @@ function App() {
     map &&
       map.addEventListener('zoomend', () => {
         let zoom = map.getZoom()
-        if (zoom >= 4 && zoom <= 9.5) {
+        if (zoom >= 4 && zoom <= 10) {
           markers.forEach((ms) => {
             map.removeOverlay(ms)
           })
@@ -94,7 +115,7 @@ function App() {
     map.enableInertialDragging(true)
 
     let ms = []
-    targetList.forEach((local) => {
+    targetList && targetList.forEach((local) => {
       let point = new window.BMapGL.Point(local.point.lng, local.point.lat)
       let myIcon = new window.BMapGL.Icon(require('./imgs/location-red.png'), iconSize)
       let marker = new window.BMapGL.Marker(point, { icon: myIcon, title: local.title })
@@ -163,6 +184,13 @@ function App() {
     // getCenterLngLat(value)
   }
 
+  const cascaderChange = (value) => {
+    setCity(value[1] || '上海市')
+    initData(value[1] || '上海市')
+    setShowDetail(false)
+    setSelectLocation(null)
+  }
+
   // 获取城市中心坐标点
   const getCenterLngLat = async (value, callback) => {
     value = value || city
@@ -222,15 +250,18 @@ function App() {
   return (
     <div style={{ position: 'relative' }}>
       <div style={{ position: 'absolute', top: 20, left: 20, zIndex: 999, width: '20%', height: '75vh' }}>
-        <Select style={{ width: '100%' }} value={city} onChange={cityChange} allowClear>
-          {locations.map((item, index) => {
-            return (
-              <Option value={item.location} key={index}>
-                {item.location}
-              </Option>
-            )
-          })}
-        </Select>
+        {store === '希尔顿酒店' && (
+          <Select style={{ width: '100%' }} value={city} onChange={cityChange} allowClear={false}>
+            {locations.map((item, index) => {
+              return (
+                <Option value={item.location} key={index}>
+                  {item.location}
+                </Option>
+              )
+            })}
+          </Select>
+        )}
+        {store !== '希尔顿酒店' && <Cascader options={options} style={{ width: '100%' }} value={[city, city]} allowClear={false} expandTrigger="hover" onChange={cascaderChange} />}
 
         <div className="into" style={{ height: targetList.length > 3 ? '100%' : '75%' }}>
           {!showDetail &&
