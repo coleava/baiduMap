@@ -94,6 +94,6 @@
     align-items: center;
 }
 
-:where(.css-dev-only-do-not-override-10ed4xt).ant-cascader-dropdown .ant-cascader-menus ,:where(.css-dev-only-do-not-override-10ed4xt).ant-cascader-dropdown .ant-cascader-menu {
-    height: 320px !important;
+.ant-cascader-dropdown .ant-cascader-menus ,.ant-cascader-dropdown .ant-cascader-menu {
+    height: 350px !important;
 }
