@@ -3,10 +3,10 @@ import axios from 'axios'
 class TransportLayer {
   constructor() {
     this.client = axios.create()
-    let url = new URL(window.location.href)
-    let originValue = `${url.origin}/map`
+    // let url = new URL(window.location.href)
+    // let originValue = `${url.origin}/map`
     this.client.interceptors.request.use((cfg) => {
-      cfg.baseURL = originValue
+      cfg.baseURL = 'https://test.space365.live/map'
 
       return cfg
     })
