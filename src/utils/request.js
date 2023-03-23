@@ -4,9 +4,9 @@ class TransportLayer {
   constructor() {
     this.client = axios.create()
     let url = new URL(window.location.href)
-    // let originValue = `${url.origin}/map`
+    let originValue = `${url.origin}/map`
     this.client.interceptors.request.use((cfg) => {
-      cfg.baseURL = url
+      cfg.baseURL = originValue
 
       return cfg
     })
