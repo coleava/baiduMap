@@ -98,9 +98,7 @@ function App() {
             // map.removeOverlay(ms)
             ms.hide()
           })
-          setTimeout(() => {
-              createLabel(markers.length, centerPoint)
-          },100)
+          createLabel(markers.length, centerPoint)
         } else {
           markers.forEach((ms) => {
             // map.addOverlay(ms)
@@ -160,23 +158,23 @@ function App() {
   }
 
   const createLabel = (content, point) => {
-    if(point){
-        let myIcon = new window.BMapGL.Icon(require('./imgs/location-filled.png'), iconSize)
-        let marker = new window.BMapGL.Marker(point, { icon: myIcon })
-        map.addOverlay(marker)
-        let label = new window.BMapGL.Label(content.toString(), {
-          offset: new window.BMapGL.Size(-9, -12), // 设置标注的偏移量
-        })
-    
-        label.setStyle({
-          background: 'none',
-          color: '#fff',
-          border: 'none',
-          fontWeight: 'bolder',
-          fontSize: 32,
-        })
-        marker.setLabel(label)
-        setCountMarker(marker)
+    if (point && typeof point === 'object') {
+      let myIcon = new window.BMapGL.Icon(require('./imgs/location-filled.png'), iconSize)
+      let marker = new window.BMapGL.Marker(point, { icon: myIcon })
+      map.addOverlay(marker)
+      let label = new window.BMapGL.Label(content.toString(), {
+        offset: new window.BMapGL.Size(-9, -12), // 设置标注的偏移量
+      })
+
+      label.setStyle({
+        background: 'none',
+        color: '#fff',
+        border: 'none',
+        fontWeight: 'bolder',
+        fontSize: 32,
+      })
+      marker.setLabel(label)
+      setCountMarker(marker)
     }
   }
 
