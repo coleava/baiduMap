@@ -92,18 +92,22 @@ function App() {
     map &&
       map.addEventListener('zoomend', () => {
         let zoom = map.getZoom()
-        if (zoom >= 4 && zoom <= 10) {
+        if (zoom >= 4 && zoom <= 9.5) {
           markers.forEach((ms) => {
-            map.removeOverlay(ms)
+            // map.removeOverlay(ms)
+            ms.hide()
           })
           getCenterLngLat(city, (point) => {
             createLabel(markers.length, point)
           })
         } else {
           markers.forEach((ms) => {
-            map.addOverlay(ms)
+            // map.addOverlay(ms)
+            ms.show()
           })
-          removeLabel()
+          setTimeout(() => {
+              removeLabel()
+          },100)
         }
       })
   }, [markers, countMarker])
@@ -173,7 +177,8 @@ function App() {
   }
 
   const removeLabel = () => {
-    map.removeOverlay(countMarker)
+    // map.removeOverlay(countMarker)
+    countMarker &&  countMarker.hide()
   }
 
   const cityChange = (value) => {
@@ -181,6 +186,7 @@ function App() {
     initData(value || '上海市')
     setShowDetail(false)
     setSelectLocation(null)
+    setCountMarker(null)
     // getCenterLngLat(value)
   }
 
@@ -189,6 +195,7 @@ function App() {
     initData(value[1] || '上海市')
     setShowDetail(false)
     setSelectLocation(null)
+    setCountMarker(null)
   }
 
   // 获取城市中心坐标点
