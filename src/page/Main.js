@@ -33,7 +33,7 @@ export default class Main extends React.Component {
       size: 30,
     }
     this.countLabel = null
-    this.iconSize = new window.BMapGL.Size(48, 48)
+    this.iconSize = new window.BMapGL.Size(52, 52)
     this.smallIconSize = new window.BMapGL.Size(28, 28)
   }
 
@@ -152,11 +152,12 @@ export default class Main extends React.Component {
                 this.state.map.addOverlay(ms)
             //   ms.show()
             })
-            // this.countLabel.setContent('')
-            // this.state.countMarker.setLabel(null)
+            this.countLabel.setContent('')
+            this.state.countMarker.setLabel(null)
             let node = document.querySelector('.BMapLabel')
-            
+            // console.log('node',node);
             node.style.display = 'none'
+            // console.log('after',node);
             this.countLabel = null
             this.state.map.removeOverlay(this.state.countMarker)
           }
@@ -193,8 +194,8 @@ export default class Main extends React.Component {
       background: 'none',
       color: '#fff',
       border: 'none',
-      fontWeight: 600,
-      fontSize: 28,
+      fontWeight: 'bolder',
+    //   fontSize: 14,
       display: 'block',
     })
     this.countLabel = label
