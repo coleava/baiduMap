@@ -6,8 +6,8 @@ class TransportLayer {
     // let url = new URL(window.location.href)
     // let originValue = `${url.origin}/map`
     this.client.interceptors.request.use((cfg) => {
-      //   cfg.baseURL = 'https://test.space365.live/map'
-      cfg.baseURL = 'http://localhost:19009/map'
+        cfg.baseURL = 'https://test.space365.live/map'
+    //   cfg.baseURL = 'http://localhost:19009/map'
 
       return cfg
     })
