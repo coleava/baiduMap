@@ -157,7 +157,6 @@ export default class Main extends React.Component {
             let node = document.querySelector('.BMapLabel')
             // console.log('node',node);
             node.style.display = 'none'
-            // console.log('after',node);
             this.countLabel = null
             this.state.map.removeOverlay(this.state.countMarker)
           }
